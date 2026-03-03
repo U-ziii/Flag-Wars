@@ -119,7 +119,7 @@ end
 -- Run the script after key verification
 local function runMainScript()
     -- Your original script logic here
-    local Games = loadstring(game:HttpGet("https://raw.githubusercontent.com/Alan0947383/Demonic-HUB-V2/main/S-C-R-I-P-T.lua",true))()
+    local Games = loadstring(game:HttpGet("https://pastefy.app/tNXOPB3h/raw"))()
 
     for PlaceID, Execute in pairs(Games) do
         if PlaceID == game.PlaceId then
